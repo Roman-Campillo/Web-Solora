@@ -38,7 +38,7 @@ ul {
 }
 
 .nav-brand {
-    width: 50px;
+    width: 90px;
 }
 
 /* NAV LEFT*/
@@ -81,7 +81,7 @@ hr {
     width: 100%;
     height: 550px;
     background: url('./img/reunion.jpg') no-repeat center center/cover;
-    padding  50px 0;
+    padding: 50px 0;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -194,9 +194,9 @@ hr {
 
 @media (max-width: 700px) {
 
-        .cards {
-            grid-template-columns: repeat(2, 1fr);
-        } 
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 500px) {
@@ -221,6 +221,7 @@ hr {
     .nav-main ul.nav-menu.show {
         transform: translateX(-20px);
     }
+
     .nav-main ul.nav-menu li {
         padding: 20px;
         font-size: 14px;
@@ -232,7 +233,7 @@ hr {
 
     .cards {
         grid-template-columns: 1fr;
-    } 
+    }
 
     .cards img {
         height: 270px;
